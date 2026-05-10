@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_HUB_REPO = "dataguru97/gitops-project"
+        DOCKER_HUB_REPO = "prasanna14200/gitops-project"
         DOCKER_HUB_CREDENTIALS_ID = "gitops-dockerhub-token"
     }
     stages {
