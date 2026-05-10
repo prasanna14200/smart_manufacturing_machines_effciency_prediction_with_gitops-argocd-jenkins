@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+
+# ML Artifacts
+artifacts/
+*.weights
+*.h5
+*.pkl
+*.joblib
+*.pt
+
+
+# Data
+data/
+dataset/
+
+# Logs
+logs/
+*.log
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
