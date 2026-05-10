@@ -1,38 +1,54 @@
-# Python
+# Virtual environments (if ever created inside CODE)
+venv/
+env/
+.venv/
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Virtual environment
-venv/
-.env
-
-# ML Artifacts
-artifacts/
-*.weights
-*.h5
-*.pkl
-*.joblib
-*.pt
-
-
-# Data
-data/
-dataset/
-
 # Logs
 logs/
 *.log
 
-# Notebook checkpoints
+# Jupyter
 .ipynb_checkpoints/
+notebook/.ipynb_checkpoints/
 
-# Build files
+# Environment variables
+.env
+
+# ML artifacts
+artifacts/
+artifacts/raw/
+artifacts/processed/
+artifacts/model/
+artifacts/weights/
+artifacts/model_checkpoint/
+
+# Trained models
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Build / package
 build/
 dist/
 *.egg-info/
 
+# IDE
+.vscode/
+.idea/
+
 # OS files
 .DS_Store
 Thumbs.db
+
+venv/
+env/
+.venv/
