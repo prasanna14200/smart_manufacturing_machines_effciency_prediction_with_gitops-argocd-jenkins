@@ -1,7 +1,7 @@
 apiVersion: v1
 clusters:
 - cluster:
-    certificate-authority: <base64>
+    certificate-authority: /home/.../ca.crt
     extensions:
     - extension:
         last-update: Sun, 10 May 2026 06:21:59 UTC
@@ -27,5 +27,5 @@ kind: Config
 users:
 - name: minikube
   user:
-    client-certificate: <base64>
-    client-key: <base64>
+    client-certificate: /home/.../client.crt
+    client-key: /home/.../client.key
