@@ -21,15 +21,14 @@ notebook/.ipynb_checkpoints/
 .env
 
 # ML artifacts
-artifacts/
-artifacts/raw/
+
+
 artifacts/processed/
-artifacts/model/
-artifacts/weights/
-artifacts/model_checkpoint/
+
+
 
 # Trained models
-*.pkl
+
 *.joblib
 *.h5
 *.pt
