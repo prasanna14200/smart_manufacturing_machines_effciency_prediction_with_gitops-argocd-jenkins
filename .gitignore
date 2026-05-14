@@ -23,6 +23,10 @@ notebook/.ipynb_checkpoints/
 # ML artifacts
 
 
+artifacts/processed/X_test.pkl
+artifacts/processed/X_train.pkl
+artifacts/processed/y_test.pkl
+artifacts/processed/y_train.pkl
 
 
 
